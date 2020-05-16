@@ -41,7 +41,7 @@ h1{
 }
 .content{
 	margin: 9px 11px;
-    padding: 10px;
+  padding: 10px;
 }
 
 .subheading{
@@ -52,7 +52,6 @@ h1{
   border-top: thin solid black;
 }
 .nav-item a{
-  text-decoration: none;
   text-transform: none;
 }
 /*.subheading{
@@ -65,7 +64,9 @@ h1{
 	padding-left: 5px;
 	padding-right: 5px;
 }*/
-
+.dispnone{
+  display: none !important;
+}
 .left span{
 	background-color: #9eb5d9;
 }
@@ -80,12 +81,12 @@ h1{
 
 
 /* Use a media query to add a break point at 800px: */
-/*
-@media screen and (max-width:991px) {
 
-  .mobileonly{
-    display: block;
+@media screen and (min-width:992px) {
+
+  .mobilenavigation{
+    display: none;
   }
 }
 
-*/
+
